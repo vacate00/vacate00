@@ -19,5 +19,7 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_mode: icons
           plugin_languages: yes
+          plugin_stars: yes
+          plugin_stars_limit: 3
           plugin_languages_ignored: html, css, sass, scss, less, shell, dockerfile
           plugin_languages_details: bytes-size, percentage
