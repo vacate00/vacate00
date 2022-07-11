@@ -20,4 +20,4 @@ jobs:
           plugin_stars_limit: 3
           plugin_languages_ignored: html, css, sass, scss, less, shell, dockerfile
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_skipped: z9956/RSSHub
+          plugin_languages_skipped: z9956/RSSHub, RSSHub
