@@ -10,8 +10,6 @@ Visit count:
 
 ![](https://count.getloli.com/get/@z9956?theme=moebooru)
 
-<iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/119323843/activity-summary/15338ddb96e172ac63a9b54d3394dcf3c5ab360e'></iframe>
-
 
 
 
