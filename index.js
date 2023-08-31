@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 const path = require("path");
-const fs = require("fs");
 
 const websiteUrl =
   "https://www.strava.com/athletes/119323843/activity-summary/15338ddb96e172ac63a9b54d3394dcf3c5ab360e";
