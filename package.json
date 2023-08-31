@@ -1,0 +1,18 @@
+{
+  "name": "z9956",
+  "version": "1.0.0",
+  "description": "<!-- [📚](http://notes-z9956.vercel.app/) -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//z9956/z9956.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
