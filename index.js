@@ -13,7 +13,16 @@ const websiteUrl =
 
   const footerElement = await page.$(".footer .primary");
   if (footerElement) {
-    const currentTime = new Date().toLocaleString();
+    const currentTime = new Intl.DateTimeFormat("zh-CN", {
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: false,
+    }).format();
+    
     await page.evaluate(
       (element, time) => {
         element.textContent = time;
