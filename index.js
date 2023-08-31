@@ -1,8 +1,17 @@
 const puppeteer = require("puppeteer");
 const path = require("path");
+const fs = require("fs");
 
 const websiteUrl =
   "https://www.strava.com/athletes/119323843/activity-summary/15338ddb96e172ac63a9b54d3394dcf3c5ab360e";
+
+const screenshotPath = path.join(__dirname, `snapshot.png`);
+const previousScreenshotPath = path.join(screenshotPath, "snapshot.png");
+
+if (fs.existsSync(previousScreenshotPath)) {
+  fs.unlinkSync(previousScreenshotPath);
+  console.log("Previous screenshot deleted.");
+}
 
 (async () => {
   const browser = await puppeteer.launch({ headless: "new" });
