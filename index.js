@@ -13,7 +13,7 @@ const websiteUrl =
 
   const footerElement = await page.$(".footer .primary");
   if (footerElement) {
-    const currentTime = new Intl.DateTimeFormat("zh-CN", {
+    const currentTime = new Intl.DateTimeFormat('zh-CN', {
       year: "numeric",
       month: "numeric",
       day: "numeric",
@@ -21,6 +21,7 @@ const websiteUrl =
       minute: "numeric",
       second: "numeric",
       hour12: false,
+      timeZone: 'Asia/Shanghai'
     }).format();
     
     await page.evaluate(
