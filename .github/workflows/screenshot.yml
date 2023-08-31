@@ -37,5 +37,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.METRICS_TOKEN }}
-        branch: ${{ github.ref }}
+        force_with_lease: true
