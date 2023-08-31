@@ -13,7 +13,7 @@ const websiteUrl =
   const screenshotPath = path.join(__dirname, `snapshot.png`);
   await page.screenshot({
     path: screenshotPath,
-    clip: { x: 0, y: 0, width: 520, height: 160 },
+    clip: { x: 0, y: 0, width: 480, height: 160 },
   });
 
   await browser.close();
