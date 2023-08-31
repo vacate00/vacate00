@@ -2,7 +2,7 @@ name: Scheduled Screenshot
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '0 0 * * *'  
 
 jobs:
   screenshot:
@@ -20,5 +20,11 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Update screenshots
-      run: node index.js  
+    - name: Take and save screenshot
+      run: node index.js
+      
+    - name: Upload screenshot artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: screenshots
+        path: snapshot.png
