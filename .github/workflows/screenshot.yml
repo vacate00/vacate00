@@ -3,6 +3,10 @@ name: Scheduled Screenshot
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 
 jobs:
   screenshot:
@@ -14,7 +18,8 @@ jobs:
       
     - name: Setup Node.js
       uses: actions/setup-node@v2
-      
+      with:
+          node-version: 16
         
     - name: Install dependencies
       run: npm install
