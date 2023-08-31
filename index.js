@@ -8,12 +8,13 @@ const websiteUrl =
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
 
+  await page.setViewport({ width: 480, height: 160 });
   await page.goto(websiteUrl);
 
   const screenshotPath = path.join(__dirname, `snapshot.png`);
   await page.screenshot({
     path: screenshotPath,
-    clip: { x: 0, y: 0, width: 480, height: 160 },
+    // clip: { x: 0, y: 0, width: 480, height: 160 },
   });
 
   await browser.close();
