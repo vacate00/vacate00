@@ -14,7 +14,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
-          config_padding: 25
+          config_padding: 35
           plugin_lines: yes
           plugin_languages: yes
           plugin_languages_ignored: html, css, sass, scss, less, shell, dockerfile
