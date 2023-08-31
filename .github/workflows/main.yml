@@ -20,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Take screenshot
+    - name: Update screenshots
       run: node index.js  
