@@ -36,12 +36,12 @@
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -143,12 +143,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="222.72723515066343" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="222.72723515066343" y="0" width="197.4789933333727" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="420.2062284840361" y="0" width="24.5535603568919" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="444.75978884092797" y="0" width="9.580900024210074" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="454.3406888651381" y="0" width="5.3978718755720365" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="459.7385607407101" y="0" width="0.2614392592898772" height="8" fill="#4298b8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="240.5500669015046" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="240.5500669015046" y="0" width="182.64528549193085" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="423.1953523934355" y="0" width="22.709210562245705" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="445.9045629556812" y="0" width="8.86122716474154" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="454.76579012042276" y="0" width="4.992408727233008" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="459.75819884765576" y="0" width="0.24180115234428334" height="8" fill="#4298b8"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -160,8 +160,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>327 kB</div>
-                                <div>48.42%</div>
+                                <div>383 kB</div>
+                                <div>52.29%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -173,7 +173,7 @@
                             </div>
                             <small>
                                 <div>36.1 kB</div>
-                                <div>5.34%</div>
+                                <div>4.94%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -185,7 +185,7 @@
                             </div>
                             <small>
                                 <div>7.95 kB</div>
-                                <div>1.17%</div>
+                                <div>1.09%</div>
                             </small>
                         </div>
                     </section>
@@ -199,7 +199,7 @@
                             </div>
                             <small>
                                 <div>290 kB</div>
-                                <div>42.93%</div>
+                                <div>39.71%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -211,7 +211,7 @@
                             </div>
                             <small>
                                 <div>14.1 kB</div>
-                                <div>2.08%</div>
+                                <div>1.93%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -223,7 +223,7 @@
                             </div>
                             <small>
                                 <div>385 bytes</div>
-                                <div>0.06%</div>
+                                <div>0.05%</div>
                             </small>
                         </div>
                     </section>
